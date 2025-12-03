@@ -1,0 +1,6 @@
+body { background: #0f172a; color: white; font-family: Arial; text-align: center; }
+.room { width: 200px; height: 150px; background: #334155; margin: 20px auto; border-radius: 10px; position: relative; }
+.lamp { width: 50px; height: 50px; background: yellow; border-radius: 50%; position: absolute; top: 50px; left: 75px; box-shadow: 0 0 20px yellow; }
+.lamp.off { background: #555; box-shadow: none; }
+button { padding: 10px; margin: 10px; border-radius: 5px; border: none; background: #38bdf8; cursor: pointer; }
+.sensor { font-size: 20px; margin: 5px 0; }
